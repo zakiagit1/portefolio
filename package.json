@@ -1,0 +1,26 @@
+{
+  "name": "portefolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+   
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakiagit1/portefolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakiagit1/portefolio/issues"
+  },
+  "homepage": "https://github.com/zakiagit1/portefolio#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {}
+}
