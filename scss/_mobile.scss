@@ -46,7 +46,7 @@
       transform: translate3d(100%, 0, 0);
   
       .portrait {
-        background: url('../img/zakia.jpg');
+        background: url('../img/zakia.png');
         width: 150px;
         height: 150px;
       }
@@ -70,6 +70,8 @@
   
   // Smartphones
   @include mediaSm {
+
+
     main {
       padding: 2rem;
       #home h1 {
@@ -85,5 +87,30 @@
     .projects {
       grid-template-columns: 1fr;
     }
+     .competances {
+   // align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .frame {
+    text-align: center;
+    grid-template-columns:1fr;
+    height: 40px;
+  }
+
+  .login {
+
+  display: flex;
+  flex-direction: column;
+ 
+}
+.picture{
+  width: 10px;
+
+
+}
+
   }
   
+ 

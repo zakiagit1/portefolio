@@ -1,3 +1,4 @@
+
 // Select DOM Items
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
@@ -31,3 +32,12 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+
+//CONTACT
+$(document).ready(function () {
+  $('.frame').click(function () {
+    $('.top').addClass('open');
+    $('.message').addClass('pull');
+  })
+});

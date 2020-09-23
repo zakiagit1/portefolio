@@ -22,5 +22,6 @@
     "node-sass": "^4.14.1",
     "sass": "^1.26.10"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "phpmailer/phpmailer": "~6.1"
 }
