@@ -2,7 +2,7 @@
    
 
 $host = "localhost";
-$user = "root";
+$user = "antary";
 $pw = "12345";
 $db = "zakia-portfolio";//
 

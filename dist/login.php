@@ -13,57 +13,14 @@
 </head>
 
 <body id="login-img">
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
-
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
-            </div>
-            <ul class="menu-nav">
-                <li class="nav-item current">
-                    <a href="index.html" class="nav-link">
-                        Accuiel
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link">
-                        À propos
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link">
-                        Portfolio
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="competances.html" class="nav-link">
-                        Mes Competances
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">
-                        Contact
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="login.php" class="nav-link">
-                        Login
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <?php include 'menu.php';?>
+    
     <h1 class="lg-heading">
-        Contact Moi
+        LOGIN
         <span class="text-secondary"></span>
     </h1>
     <h2 class="sm-heading">
-        This is how you can reach me...
+        Connecter To espace Admin
     </h2>
 <div class="login">
     
@@ -89,7 +46,7 @@
                     ?>
         </form>
     </div>
-    <div class="picture"><img src="../dist/img/meeting-1019875_640.jpg" alt="" ></div>
+    <div class="picture"><img src="../dist/img/login-icon.jpg" alt="" ></div>
     </div>
 
 

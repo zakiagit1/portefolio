@@ -51,7 +51,7 @@ header {
   color:$secondary-color;
 }
 
-main {
+ main {
   padding: 4rem;
   // height: 100%;
   min-height: calc(100vh - 60px);
@@ -79,48 +79,34 @@ main {
 
 .about-info {
   display: grid;
-  grid-gap: 60px;
+  grid-gap: 30px;
   grid-template-areas:
-    'bioimage bio bio';
-    //'job1 job2 job3';
- // grid-template-columns: repeat(3, 1fr);
+    'bioimage bio bio'
+    'job1 job2 job3';
+  grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
-   // grid-area: bioimage;
+    grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
   }
+
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
   }
 
-  .job-1 {
-    grid-area: job1;
-  }
-
-  .job-2 {
-    grid-area: job2;
-  }
-
-  .job-3 {
-    grid-area: job3;
-  }
-
-  .job {
-    background: lighten($primary-color, 5);
-    padding: 0.5rem;
-    border-bottom: $secondary-color 5px solid;
-  }
+  
+  
 }
 
+///Projects
 
-// Work/Projects
 .projects {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr),;
 
   img {
     width: 100%;
@@ -134,11 +120,11 @@ main {
   }
 }
 
-/*/* Contact Page
+ //Contact Page
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-top: 1rem;
 
@@ -182,7 +168,9 @@ main {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
-}*/
+}
+
+
 
 #main-footer {
   text-align: center;
@@ -268,6 +256,9 @@ html {
   justify-content:space-around;
  
 }
+h1{
+  color: $secondary-color;
+}
 .picture{
   transform: perspective(800px) rotateY(-25deg);
  // height: 200px;
@@ -323,30 +314,12 @@ input[type=submit]:hover {
 
 
 
+////contact//////////
 
-
-
-
-
-@import 'mobile';
-
-
-
-
-
-
-////contact
-//html,body {
-//	margin: 0;
-//	height: 100%;
-//	background:$primary-color;
-//	text-align: center;
-//	font-family: 'Ubuntu';
-//}
 .frame{
 	width: 600px;
 	height: 350px;
-	margin: 100px auto 0;
+	margin: 80px auto 0;
 	position: relative;
 	background: #435d77;
 	border-radius:0 0 40px 40px; 
@@ -355,7 +328,7 @@ input[type=submit]:hover {
 	width: 180px;
 	height: 60px;
 	position: absolute;
-	z-index: 311;
+	z-index: 321;
 	top: 250px;
 	left: 208px;
 	border-radius: 10px;
@@ -363,7 +336,8 @@ input[type=submit]:hover {
 	font-size: 26px;
 	padding:20px 0; 
 	border: 2px solid #fff;
-	transition:.3s;
+  transition:.3s;
+
 }
 #button_open_envelope:hover{
 	background: #FFf;
@@ -379,7 +353,7 @@ input[type=submit]:hover {
 	height: auto;
 	background: #fff;
 	margin: 0 auto;
-	top: 30px;
+	top: 20px;
 	box-shadow: 0 0 5px 2px #333;
 	transition:2s ease-in-out;
 	transition-delay:1.5s;
@@ -432,7 +406,7 @@ input[type=submit]:hover {
 	transition-delay:1s;
 	z-index: 350;
 }
-#name,#email,#phone,#messarea,#send{
+#name,#email,#subject,#messarea,#send{
 	margin: 0;
 	padding: 0 0 0 10px;
 	width: 550px;
@@ -464,8 +438,8 @@ input[type=submit]:hover {
 }
 #send:hover{background:tomato;transition:.35s;}
 
-::-moz-placeholder{color: #7CB342;font-family: 'Ubuntu';font-size: 20px;opacity: 1;} 
-::-webkit-input-placeholder {color: #7CB342; font-family: 'Ubuntu';font-size: 20px;}
+::-moz-placeholder{color:#333;font-family: 'Ubuntu';font-size: 20px;opacity: 1;} 
+::-webkit-input-placeholder {color: #333; font-family: 'Ubuntu';font-size: 20px;}
 *:focus {outline: none;}
 input:focus:invalid,textarea:focus:invalid {
  /* when a field is considered invalid by the browser */
@@ -525,6 +499,35 @@ input:required:valid,textarea:required:valid {
 		transition: 1s ease-in-out;
 	}
 }
+
+
+
+
+
+
+//animations projets///
+.item img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.item:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

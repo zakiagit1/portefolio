@@ -1,3 +1,13 @@
+//CONTACT
+$(document).ready(function () {
+  $('.frame').click(function () {
+    $('.top').addClass('open');
+    $('.message').addClass('pull');
+  })
+});
+
+
+
 
 // Select DOM Items
 const menuBtn = document.querySelector('.menu-btn');
@@ -34,10 +44,3 @@ function toggleMenu() {
 }
 
 
-//CONTACT
-$(document).ready(function () {
-  $('.frame').click(function () {
-    $('.top').addClass('open');
-    $('.message').addClass('pull');
-  })
-});
