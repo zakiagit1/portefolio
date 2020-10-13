@@ -1,10 +1,3 @@
-//CONTACT
-$(document).ready(function () {
-  $('.frame').click(function () {
-    $('.top').addClass('open');
-    $('.message').addClass('pull');
-  })
-});
 
 
 
@@ -44,3 +37,11 @@ function toggleMenu() {
 }
 
 
+
+//CONTACT
+$(document).ready(function () {
+  $('.frame').click(function () {
+    $('.top').addClass('open');
+    $('.message').addClass('pull');
+  })
+});

@@ -20,7 +20,7 @@
         <span class="text-secondary"></span>
     </h1>
     <h2 class="sm-heading">
-        Connecter To espace Admin
+        Connecter à espace Admin 
     </h2>
 <div class="login">
     

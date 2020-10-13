@@ -330,11 +330,12 @@ input[type=submit]:hover {
 	position: absolute;
 	z-index: 321;
 	top: 250px;
-	left: 208px;
+	left: 200px;
 	border-radius: 10px;
 	color: #fff;
 	font-size: 26px;
-	padding:20px 0; 
+  padding-top:15px 0; 
+  padding-left: 30px;
 	border: 2px solid #fff;
   transition:.3s;
 
@@ -343,7 +344,7 @@ input[type=submit]:hover {
 	background: #FFf;
 	color: #2b67cb;
 	transform:scale(1.1);
-	transition:background .25s, transform .5s,ease-in;
+	//transition:background .25s, transform .5s,ease-in;
 	cursor: pointer;
 }
 .message{
@@ -431,28 +432,14 @@ input[type=submit]:hover {
 	padding: 0;	
 	border:  none;
 	cursor:  pointer;
-	background: #7CB342;
+	background: $secondary-color;
 	color: #fff;
 	transition:.35s;
 	letter-spacing: 1px;
 }
-#send:hover{background:tomato;transition:.35s;}
+#send:hover{background:$primary-color;transition:.35s;}
 
-::-moz-placeholder{color:#333;font-family: 'Ubuntu';font-size: 20px;opacity: 1;} 
-::-webkit-input-placeholder {color: #333; font-family: 'Ubuntu';font-size: 20px;}
-*:focus {outline: none;}
-input:focus:invalid,textarea:focus:invalid {
- /* when a field is considered invalid by the browser */
-    background: #fff url(images/invalid.png) no-repeat 98% center;
-    box-shadow: 0 0 5px #d45252;
-    border:1px solid #b03535;
-}
-input:required:valid,textarea:required:valid { 
-	/* when a field is considered valid by the browser */
-    background: #fff url(images/valid.png) no-repeat 98% center;
-    box-shadow: 0 0 5px #5cd053;
-    border-color: #28921f;
-}
+
 
 
 @-webkit-keyframes message_animation {
@@ -505,7 +492,7 @@ input:required:valid,textarea:required:valid {
 
 
 
-//animations projets///
+/*/animations projets
 .item img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
@@ -515,7 +502,7 @@ input:required:valid,textarea:required:valid {
 .item:hover img {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
-}
+}*/
 
 
 
